@@ -25,6 +25,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  web_link,
 }) => {
   return (
     // index * 0.5, to delay for each card, so one card after another will come
@@ -37,11 +38,14 @@ const ProjectCard = ({
         }}
         className="bg-tertiary p-5 rounded-2xl sm:w-[360px]  w-[370px]"
       >
-        <motion.div className="relative w-full h-[230px]">
+        <motion.div
+          className="relative w-full h-[230px] cursor-pointer"
+          onClick={() => window.open(web_link, "_blank")}
+        >
           <img
             src={image}
             alt="project_image"
-            className="w-full h-full object-cover rounded-2xl"
+            className="w-full h-full object-cover rounded-2xl cursor-pointer"
           />
 
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
