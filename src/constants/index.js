@@ -30,6 +30,7 @@ import movie from "../../src/assets/projects/movie.png";
 import saas from "../../src/assets/projects/saas.png";
 import dalle from "../../src/assets/projects/dalle.png";
 import music from "../../src/assets/projects/music.png";
+import native from "../../src/assets/projects/react-native.jpg";
 
 export const navLinks = [
   {
@@ -334,26 +335,27 @@ const projects = [
     web_link: "https://music-eight-pi.vercel.app/",
   },
   {
-    name: "coming soon...",
+    name: "React Native",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "This is a React Native Mobile app for Job search. It can be used in any platform like Web, Android or IOS Devices.I am using Rapid API and Expo for finding real time jobs.",
     tags: [
       {
-        name: "react",
+        name: "React Native",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Expo",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "API",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-    web_link: "",
+    image: native,
+    source_code_link: "https://github.com/aviral17/react-native",
+    web_link:
+      "https://drive.google.com/file/d/1R7aMyTuLkvqCkowZL7Pomt7m72zLu2W9/view?usp=sharing",
   },
   {
     name: "coming soon...",
