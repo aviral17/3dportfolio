@@ -29,6 +29,7 @@ import chat from "../../src/assets/projects/chat.png";
 import movie from "../../src/assets/projects/movie.png";
 import saas from "../../src/assets/projects/saas.png";
 import dalle from "../../src/assets/projects/dalle.png";
+import music from "../../src/assets/projects/music.png";
 
 export const navLinks = [
   {
@@ -307,16 +308,20 @@ const projects = [
     web_link: "https://dall-e-client-brown.vercel.app",
   },
   {
-    name: "coming soon...",
+    name: "MusiX",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Its a music app.We can play, pause, rewind, forward, the music along with mute, volume up and volume down slider.I am fetching API using Redux-Toolkit-Query.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
+      // {
+      //   name: "mongodb",
+      //   color: "green-text-gradient",
+      // },
       {
-        name: "mongodb",
+        name: "Redux-Toolkit",
         color: "green-text-gradient",
       },
       {
@@ -324,9 +329,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-    web_link: "",
+    image: music,
+    source_code_link: "https://github.com/aviral17/music",
+    web_link: "https://music-eight-pi.vercel.app/",
   },
   {
     name: "coming soon...",
