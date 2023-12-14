@@ -280,7 +280,7 @@ const projects = [
     ],
     image: chat,
     source_code_link: "https://github.com/aviral17/discord",
-    web_link: "https://discord-production-898a.up.railway.app",
+    web_link: "https://discord-chi-three.vercel.app/",
   },
   {
     name: "Dall-E",
