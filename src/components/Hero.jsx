@@ -20,6 +20,7 @@ const Hero = () => {
   //       nameRef.current.style.top = `0px`;
   //       setMyname(true);
   //     }
+  // Adjust the same for different screens. 
   //     // else if (scrolled > 6774) {
   //     //   const myName = document.querySelector(".myname");
 
