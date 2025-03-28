@@ -77,4 +77,6 @@ const App = () => {
   );
 };
 
+// USE HOC (Higher Order Components) 
+
 export default App;
