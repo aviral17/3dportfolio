@@ -1,5 +1,6 @@
 // Without CanvasLoader, Computers component which contains 3D Models doesn't work
 // https://stackoverflow.com/questions/68840056/react-three-fiber-shows-uncaught-div-is-not-part-of-the-three-namespace-did-y
+// Change Loader
 
 import { Html, useProgress } from "@react-three/drei";
 
