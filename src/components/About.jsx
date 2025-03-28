@@ -10,6 +10,7 @@ import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
 import setting from "../assets/3d/setting.png";
 // import computer1 from "../assets/3d/headphone1.png";
+// GENERATE 3D model from AI and use that  
 import { useInView } from "react-intersection-observer";
 
 const ServiceCard = ({ index, title, icon }) => (
