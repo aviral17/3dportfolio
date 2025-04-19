@@ -26,7 +26,7 @@ const App = () => {
   const [showApp, setShowApp] = useState(false);
 
   const experienceRef = useRef(null);
-
+// update 3D model and functions
   return (
     <>
       <SplashScreen onFinished={() => setShowApp(true)} />
