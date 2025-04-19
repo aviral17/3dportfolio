@@ -1,4 +1,4 @@
-// update it as per latest changes
+// update it as per current changes
 
 import { BrowserRouter } from "react-router-dom";
 
